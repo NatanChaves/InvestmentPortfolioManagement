@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Quartz" Version="3.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InvestmentPortfolioManagement.Data\InvestmentPortfolioManagement.Data.csproj" />
+    <ProjectReference Include="..\InvestmentPortfolioManagement.Services\InvestmentPortfolioManagement.Services.csproj" />
+  </ItemGroup>
+
+</Project>

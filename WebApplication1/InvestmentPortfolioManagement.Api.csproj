@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GenerateRuntimeConfigurationFiles>True</GenerateRuntimeConfigurationFiles>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.32">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InvestmentPortfolioManagement.Common\InvestmentPortfolioManagement.Common.csproj" />
+    <ProjectReference Include="..\InvestmentPortfolioManagement.Data\InvestmentPortfolioManagement.Data.csproj" />
+    <ProjectReference Include="..\InvestmentPortfolioManagement.Notification\InvestmentPortfolioManagement.Notification.csproj" />
+    <ProjectReference Include="..\InvestmentPortfolioManagement.Services\InvestmentPortfolioManagement.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentPortfolioManagement.Api", "WebApplication1\InvestmentPortfolioManagement.Api.csproj", "{8D5FDA2D-4F86-438D-A24F-1E0AEF3C41DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentPortfolioManagement.Services", "InvestmentPortfolioManagement.Services\InvestmentPortfolioManagement.Services.csproj", "{AE2D5B92-9738-4C4C-9407-5069EFA0D2DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentPortfolioManagement.Data", "InvestmentPortfolioManagement.Data\InvestmentPortfolioManagement.Data.csproj", "{0CE06282-7066-446A-800D-88F989A6E3C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentPortfolioManagement.Tests", "InvestmentPortfolioManagement.Tests\InvestmentPortfolioManagement.Tests.csproj", "{4DFF89E3-9312-4B7C-A839-BF0384D3D49D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentPortfolioManagement.Common", "InvestmentPortfolioManagement.Common\InvestmentPortfolioManagement.Common.csproj", "{FF015E34-3356-489D-B3DA-5F62D8966C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentPortfolioManagement.Notification", "InvestmentPortfolioManagement.Notification\InvestmentPortfolioManagement.Notification.csproj", "{10F94575-BF42-4673-9E30-1DA511AA1C3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D5FDA2D-4F86-438D-A24F-1E0AEF3C41DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5FDA2D-4F86-438D-A24F-1E0AEF3C41DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5FDA2D-4F86-438D-A24F-1E0AEF3C41DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5FDA2D-4F86-438D-A24F-1E0AEF3C41DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2D5B92-9738-4C4C-9407-5069EFA0D2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2D5B92-9738-4C4C-9407-5069EFA0D2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2D5B92-9738-4C4C-9407-5069EFA0D2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2D5B92-9738-4C4C-9407-5069EFA0D2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CE06282-7066-446A-800D-88F989A6E3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE06282-7066-446A-800D-88F989A6E3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE06282-7066-446A-800D-88F989A6E3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE06282-7066-446A-800D-88F989A6E3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DFF89E3-9312-4B7C-A839-BF0384D3D49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFF89E3-9312-4B7C-A839-BF0384D3D49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DFF89E3-9312-4B7C-A839-BF0384D3D49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFF89E3-9312-4B7C-A839-BF0384D3D49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF015E34-3356-489D-B3DA-5F62D8966C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF015E34-3356-489D-B3DA-5F62D8966C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF015E34-3356-489D-B3DA-5F62D8966C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF015E34-3356-489D-B3DA-5F62D8966C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F94575-BF42-4673-9E30-1DA511AA1C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F94575-BF42-4673-9E30-1DA511AA1C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F94575-BF42-4673-9E30-1DA511AA1C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F94575-BF42-4673-9E30-1DA511AA1C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D97FEB28-E54C-4001-91CA-C049239B8995}
+	EndGlobalSection
+EndGlobal
