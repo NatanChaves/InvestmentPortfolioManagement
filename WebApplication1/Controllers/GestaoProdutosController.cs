@@ -63,5 +63,20 @@ namespace InvestmentPortfolioManagement.Api.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "Erro ao atualizar produto, por favor contactar o administrador do sistema.");
             }
         }
+
+        [HttpGet]
+        public IActionResult ListarProdutosDisponiveis(int iniciarDe, int tamanhoPagina)
+        {
+            try
+            {
+                Pagination pagination = new Pagination() { TamanhoPagina = tamanhoPagina, IniciarDe = iniciarDe };
+                var produtos = _service.ListarProdutosDisponiveis(pagination);
+                return Ok(produtos);
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Erro ao consultar produtos disponiveis, por favor contactar o administrador do sistema.");
+            }
+        }
     }
 }
