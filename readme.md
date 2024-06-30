@@ -19,9 +19,11 @@ Certifique-se de ter o Visual Studio instalado. Você pode baixá-lo através do
 
 ### 3. Aplicação das Migrations
 
-No terminal ou prompt de comando, navegue até o diretório do seu projeto onde está localizado o contexto de dados (`DataBaseContextApplication`). Execute o seguinte comando para aplicar as migrations:
+No Package Manager Console, navegue até o diretório do projeto InvestmentPortfolioManagement.Data onde está localizado o contexto de dados (`DataBaseContextApplication`). Execute os seguintes comando para aplicar as migrations:
 
-    dotnet ef migrations add NomeDaMigration
+    Add-Migration NomeDaMigration
+    Update-Database
+		
     
 ### Passo 4: Rodando a Aplicação
 
