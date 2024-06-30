@@ -39,11 +39,9 @@ namespace WebApplication1
         {
             services.AddScoped<IFundoImobiliarioService, FundoImobiliarioService>();
             services.AddScoped<IInvestimentoService, InvestimentoService>();
-            services.AddScoped<IOperacaoService, OperacaoService>();
             
             services.AddScoped<IFundoImobiliarioRepository, FundoImobiliarioRepository>();
             services.AddScoped<IInvestimentoRepository, InvestimentoRepository>();
-            services.AddScoped<IOperacaoRepository, OperacaoRepository>();
 
             var mapperConfig = new AutoMapper.MapperConfiguration(mc =>
             {
@@ -92,7 +90,7 @@ namespace WebApplication1
                 app.UseSwaggerUI(c =>
                 {
                     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Investment Portfolio Management API V1");
-                    c.RoutePrefix = string.Empty; // Define o Swagger UI na raiz do aplicativo
+                    c.RoutePrefix = string.Empty; 
                 });
             }
 

@@ -64,7 +64,7 @@ namespace InvestmentPortfolioManagement.Api.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("listar_produtos")]
         public IActionResult ListarProdutosDisponiveis(int iniciarDe, int tamanhoPagina)
         {
             try

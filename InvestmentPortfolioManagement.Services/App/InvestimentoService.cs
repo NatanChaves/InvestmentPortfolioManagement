@@ -12,12 +12,10 @@ namespace InvestmentPortfolioManagement.Services.App
     {
         private readonly IFundoImobiliarioService _fundoImobiliarioService;
         private readonly IInvestimentoRepository _investimentoRepository;
-        private readonly IOperacaoService _operacaoService;
 
-        public InvestimentoService(IOperacaoService operacaoService, IFundoImobiliarioService fundoImobiliarioService, IInvestimentoRepository investimentoRepository)
+        public InvestimentoService(IFundoImobiliarioService fundoImobiliarioService, IInvestimentoRepository investimentoRepository)
         {
             _fundoImobiliarioService = fundoImobiliarioService;
-            _operacaoService = operacaoService;
             _investimentoRepository = investimentoRepository;
         }
 

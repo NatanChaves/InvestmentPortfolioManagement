@@ -25,7 +25,6 @@ namespace InvestmentPortfolioManagement.Notification.Email
         {
             try
             {
-                Console.WriteLine("Enviando email...");
                 string admEmail = "XXXX";
                 var smtpServer = "localhost"; 
                 var smtpPort = 25; 
